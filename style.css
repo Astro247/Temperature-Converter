@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d4d4d;
+}
+.container {
+    background-color: gray;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px black;
+
+    display: flex;
+    flex-direction: column;
+}
+.droplists {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button {
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+}
